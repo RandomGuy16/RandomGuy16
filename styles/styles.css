@@ -1,0 +1,33 @@
+html * {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100%;
+	background-color: #050505;
+}
+header, main, footer {
+	width: 100%;
+}
+
+/* header */
+header {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	color: white;
+	padding: 1rem 2rem;
+}
+header h1 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#side-menu-button {
+	position: absolute;
+	left: 2rem;
+}
